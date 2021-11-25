@@ -1,0 +1,15 @@
+KAFKA_BROKERS=localhost:29092
+KAFKA_TOPIC=rick-and-morty-migration
+RICK_AND_MORTY_URL=https://rickandmortyapi.com/api
+
+export KAFKA_BROKERS=localhost:29092
+export KAFKA_TOPIC=rick-and-morty-migration
+export RICK_AND_MORTY_URL=https://rickandmortyapi.com/api
+
+export KAFKA_BROKERS=
+export KAFKA_TOPIC=
+export RICK_AND_MORTY_URL=
+
+unset KAFKA_BROKERS
+unset KAFKA_TOPIC
+unset RICK_AND_MORTY_URL
